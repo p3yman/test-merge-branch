@@ -1,9 +1,6 @@
 resource "lab" "main" {
-  title       = "Test light theme 2"
-  description = <<-EOF
-  This is the Skeleton Lab.
-  You can use this as a minimal starting point for developing labs.
-  EOF
+  title       = "Test light theme - new title"
+  description = "This is the Skeleton Lab.\nYou can use this as a minimal starting point for developing labs.\n"
 
   # timelimit and idle are both required on every lab.
   settings {
