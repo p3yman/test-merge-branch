@@ -4,7 +4,7 @@ resource "lab" "main" {
 
   # timelimit and idle are both required on every lab.
   settings {
-    theme = "modern-light"
+    theme = "original"
 
     timelimit {
       duration = "1h"
